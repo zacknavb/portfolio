@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header class="banner">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="banner-content">
+            <h1>The Hero's Story</h1>
+            <p>Turn Based RPG</p>
+            <p>Godot</p>
+            <nav class="banner-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="games.html">Games</a>
+                <a href="art.html">Art</a>
+                <a href="about.html">About Me</a>
+            </nav>
+        </div>
+    </header>
+    <section class="about-container">
+        <div class="about-text">
+            <h2>Project Summary</h2>
+            <p>
+                This project was during my Senior Project class. It is a turn based RPG with heavy inspiration from Slay The Spire. 
+                None of the art or music in this game was made by me. This game was fully done as a portfolio piece where I focused on 
+                showing off my coding expertise. The game was fully made in Godot and was the first project I made where I did a full 
+                dive into coding a game in Godot. I made this game basically in 2 months as I had a problem occur mid project where 
+                I lost almost all of my progress. The game is made to show off my coding capabilities, so all of the heavy work 
+                I did is within the code. The art is outsourced artwork from several different pages on Itch.io and the music 
+                is made by one person that I found through YouTube. More information can be found on my Itch.io page for the game 
+                where you can <a href="https://zacknavb.itch.io/the-heros-story" target="_blank">play the game here.</a>
+            </p>
+        </div>
+        <div class="game-image">
+            <img src="images/portfolio images/img1.PNG" alt="Hero Story Main Menu">
+        </div>
+    </section>
+    <section class="about-container">
+        <div class="game-image">
+            <img src="images/project images/herostory/gameplay.PNG" alt="Hero Story Main Menu">
+        </div>
+        <div class="about-text">
+            <h2>Gameplay</h2>
+            <p>
+                As mentioned before, the gameplay for this game is a turn based RPG that has heavy inspiration from Slay The Spire.
+                The combat system is focused around a pool of 4 cards that do different things for the player to use. The attack card 
+                that lets the player choose 1 enemy to deal 10 damage to, the defense card that lets the player equip a shield that 
+                blocks up to 7 damage per defense card, the heal card that heals the player of 5 hit points, and the special card that 
+                makes the next 2 cards cost 0 mana and refreshes itself with a different card. How the block mechanic works, is that 
+                the shield takes up all the damage the number says it does, and when it runs out it still gates the damage from hitting 
+                the player's hp. So if the player recieves 15 damage but they have 1 shield, the shield breaks and the player takes 
+                no hp damage. Each card has a mana cost that is located at the top right of the card and the mana that the player is 
+                allowed to use during their turn is located at the top left of the screen. Each time it is the player's turn. their 
+                "hand" is filled with 7 randomly picked cards for them to use.
+            </p>
+        </div>
+    </section>
+    <section class="about-container">
+        <div class="about-text">
+            <p>
+                After the player uses all their mana, the turn is handed over to the enemies where each enemy attacks the player. 
+                After all the enemies take their turn attacking, the turn hands back over to the player and they recieve a new hand 
+                and a refreshed mana pool. The game functions around a "round" system, where every time the player defeats all the 
+                enemies, the round count goes up by 1, all the enemies respawn, and enemies deal 1 more damage for each round. It 
+                is an endless game where the player just tries to get as many points as possible. The player gets 1 score for every 
+                enemy killed, and the rounds passed are also tracked. The game ends when the player runs out of hp, where the game 
+                over screen appears with the player's score, rounds passed, and a home screen button. The game has more gameplay 
+                mechanics planned for the future, but I hope you enjoy the game as it is right now!
+            </p>
+        </div>
+        <div class="game-image">
+            <img src="images/project images/herostory/gameplay2.PNG" alt="Hero Story Main Menu">
+        </div>
+    </section>
+    <section class="about-container">
+        <div class="game-image">
+            <img src="images/project images/herostory/gameplay3.PNG" alt="Hero Story Main Menu">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
